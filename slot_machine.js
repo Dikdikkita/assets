@@ -6,7 +6,7 @@ document.getElementById('spinButton').addEventListener('click', function() {
 
     // Show progress bar and replace slot machine with a GIF
     progressBarContainer.style.display = 'block';  // Show progress bar
-    slotImage.src = 'img/lets-go-gambling.gif';  // Replace static image with GIF
+    slotImage.src = 'https://raw.githubusercontent.com/Dikdikkita/assets/refs/heads/main/lets-go-gambling.gif';  // Replace static image with GIF
 
     // Reset progress bar width
     progressBar.style.width = '0%';
