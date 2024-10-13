@@ -22,7 +22,7 @@ document.getElementById('spinButton').addEventListener('click', function() {
             progressBarContainer.style.display = 'none';  // Hide progress bar
 
             // Restore the original slot machine image
-            slotImage.src = 'img/slot_icon.jpg';
+            slotImage.src = 'https://raw.githubusercontent.com/Dikdikkita/assets/refs/heads/main/slot_icon.jpg';
 
             // Proceed with the game logic (e.g., check if user wins)
             spinLogic();
